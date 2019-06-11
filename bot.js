@@ -11,7 +11,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`$bc ArabHost`,"http://twitch.tv/Death Shop")
+client.user.setGame(`making by itz_baher`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
@@ -144,18 +144,19 @@ client.on("message", async message => {
     }
 });
 client.on("message", async message => {
-    if(message.content.startsWith(prefix + "help")) {
+    if(message.content.startsWith(prefix + "helpe")) {
         let help = new Discord.RichEmbed()
             .setColor("RANDOM")
             .setThumbnail(message.author.avatarURL)
-            .setDescription(`**__برودكاست بوت | Version 1.1__ 
+            .setDescription(`**●⇢ __برودكاست بوت__ ⇠●
 
-            برودكاست عادي : ${prefix}bc
-            دعوة البوت لسيرفرك : ${prefix}invite
-            معلومات عن السيرفر : ${prefix}server
+            برودكاست لجميع اعضاءالسيرفر : ${prefix}bc           
             برودكاست للأونلاين فقط : ${prefix}bco
+            معلومات عن السيرفر : ${prefix}server
             يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
-            رابط سيرفر الدعم الفني : https://discord.gg/k6MvfrC
+
+            __making by : itz_baher__ 
+            رابط سيرفر المنشئ : https://discord.gg/4sR37X
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
